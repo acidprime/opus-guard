@@ -47,4 +47,4 @@ claude plugin test .
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE). Privacy: [PRIVACY.md](PRIVACY.md).
