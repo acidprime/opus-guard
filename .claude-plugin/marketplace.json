@@ -1,0 +1,13 @@
+{
+  "name": "opus-guard",
+  "owner": {
+    "name": "Zack Smith"
+  },
+  "plugins": [
+    {
+      "name": "opus-guard",
+      "source": "./"
+    }
+  ],
+  "description": "Born when Claude felt dumb and it turned out to be running Fable 5.1 by accident. Warns whenever a session is not on Opus."
+}
