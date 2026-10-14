@@ -34,3 +34,7 @@ In the desktop app: click + next to the prompt box, then Plugins, Add marketplac
 claude plugin validate .
 claude plugin test .
 ```
+
+## License
+
+MIT. See [LICENSE](LICENSE).

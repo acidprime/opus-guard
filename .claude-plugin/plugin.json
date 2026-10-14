@@ -1,9 +1,12 @@
 {
   "name": "opus-guard",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Warning band above the prompt whenever the session is not on an Opus model",
   "types": "./types/index.d.ts",
   "author": {
     "name": "Zack Smith"
-  }
+  },
+  "homepage": "https://github.com/acidprime/opus-guard",
+  "repository": "https://github.com/acidprime/opus-guard",
+  "license": "MIT"
 }
