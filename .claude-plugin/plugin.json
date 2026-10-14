@@ -1,8 +1,7 @@
 {
   "name": "opus-guard",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Warning band above the prompt whenever the session is not on an Opus model",
-  "types": "./types/index.d.ts",
   "author": {
     "name": "Zack Smith"
   },

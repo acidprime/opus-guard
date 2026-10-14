@@ -10,6 +10,16 @@ A Claude Code mod that puts a warning band above the prompt whenever the session
 
 It checks the live model on every redraw, after `/model` switches, and after each turn, so a fallback mid-session shows up too. **Dismiss** hides it until the model changes again.
 
+## What it hooks
+
+Every hook only reads; none changes what passes through it.
+
+- `session.start`, `turn.complete`: read the session's model.
+- `classic.PostModelSwitch`: reads the model a `/model` switch landed on, to redraw the band. It doesn't change the switch or settings.
+- `ui.render` (`AbovePrompt`): draws the warning when the model isn't Opus, and passes otherwise. It steps aside while a survey holds the band.
+
+It makes no network calls and writes no files; the one value it keeps is which model you dismissed the warning for.
+
 ## Install
 
 At the prompt of a terminal session:
